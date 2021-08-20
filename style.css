@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Primary */
+  --pale_blue: hsl(225, 100%, 94%);
+  --bright_blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+  --very_pale_blue: hsl(225, 100%, 98%);
+  --desaturated_blue: hsl(224, 23%, 55%);
+  --dark_blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-position: top;
+  background-color: var(--pale_blue);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 23rem;
+  background-color: white;
+  height: 36rem;
+  border-radius: 14px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+img[alt="hero-image"] {
+  width: 100%;
+  border-radius: 14px 14px 0 0;
+}
+
+.container h3 {
+  font-weight: 900;
+  font-size: large;
+  color: var(--dark_blue);
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+p {
+  color: var(--desaturated_blue);
+  font-size: 16px;
+  text-align: center;
+  width: 18rem;
+}
+
+.plan {
+  padding: 1rem;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20rem;
+  height: 5rem;
+  border-radius: 14px;
+  background-color: var(--very_pale_blue);
+}
+
+img[alt="icon-music"] {
+  margin-right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.plan div {
+  flex: 2 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan span:nth-child(2) {
+  color: var(--desaturated_blue);
+}
+
+.plan span:nth-child(1) {
+  font-weight: 900;
+  color: var(--dark_blue);
+}
+
+.plan a {
+  color: var(--bright_blue);
+  font-weight: 700;
+}
+
+.plan a:hover {
+  text-decoration: none;
+  color: var(--desaturated_blue);
+}
+
+button {
+  box-shadow: 0px 5px 15px grey;
+  cursor: pointer;
+  width: 20rem;
+  height: 2.5rem;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: var(--bright_blue);
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--desaturated_blue);
+}
+
+#cancel_order_link {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--desaturated_blue);
+  margin-top: 2rem;
+}
+
+#cancel_order_link:hover {
+  color: var(--dark_blue);
+}
