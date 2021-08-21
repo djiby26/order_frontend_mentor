@@ -48,7 +48,7 @@ Next time i would like to include responsive design in the challenge.
 
 ### Useful resources
 
-- [MDN Web Docs](https://developer.mozilla.org) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [MDN Web Docs](https://developer.mozilla.org) - I really liked this pattern and will use it going forward.
 
 ## Author
 
